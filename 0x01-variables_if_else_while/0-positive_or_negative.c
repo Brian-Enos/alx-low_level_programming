@@ -1,32 +1,3 @@
-
-Search or jump to…
-Pulls
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Brian-Enos 
-betascribbles
-/
-alx-low_level_programming
-Public
-Fork your own copy of betascribbles/alx-low_level_programming
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x01-variables_if_else_while/0-positive_or_negative.c
-@betascribbles
-betascribbles prints whether a number is positive or negative
-Latest commit e672b04 on Jun 18, 2021
- History
- 1 contributor
-28 lines (27 sloc)  407 Bytes
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
