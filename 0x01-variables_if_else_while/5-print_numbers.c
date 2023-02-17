@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
  * main -Entry point
  * Description: prints allsingle digit numbers of
