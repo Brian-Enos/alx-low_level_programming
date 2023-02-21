@@ -1,34 +1,51 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - main function
- * Return: always return 0
+ * print_times_table - Prints a multiplication table up to param
+ * @n: The number to be treated
+ *
+ * Return: Number matrix
  */
-int main(void)
+void print_times_table(int n)
 {
-unsigned long int i, j, k, j1, j2, k1, k2;
-j = 1;
-k = 2;
-printf("%lu", j);
-for (i = 1; i < 91; i++)
-{
-printf(", %lu", k);
-k = k + j;
-j = k - j;
-}
-j1 = j / 1000000000;
-j2 = j % 1000000000;
-k1 = k / 1000000000;
-k2 = k % 1000000000;
-for (i = 92; i < 99; ++i)
-{
-printf(", %lu", k1 + (k2 / 1000000000));
-printf("%lu", k2 % 1000000000);
-k1 = k1 + j1;
-j1 = k1 - j1;
-k2 = k2 + j2;
-j2 = k2 - j2;
-}
-printf("\n");
-return (0);
+	int x, y, z;
+
+	if (n >= 0 && n <= 14)
+	{
+		for (x = 0; x <= n; x++)
+		{
+			for (y = 0; y <= n; y++)
+			{
+				z = x * y;
+				if (z > 99)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar((z / 100) + '0');
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+				else if (z > 9)
+				{
+					_putchar(',');
+					_putchar(32);
+					_putchar(32);
+					_putchar(((z / 10) % 10) + '0');
+					_putchar((z % 10) + '0');
+				}
+				else
+				{
+					if (y != 0)
+					{
+						_putchar(',');
+						_putchar(32);
+						_putchar(32);
+						_putchar(32);
+					}
+					_putchar(z + '0');
+				}
+			}
+			_putchar('\n');
+		}
+	}
 }
