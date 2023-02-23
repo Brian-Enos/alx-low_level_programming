@@ -1,13 +1,19 @@
 #include "main.h"
 /**
- * _abs - computes the absolute value of an integer
- * @n: n is an integer
- * Return: integer
+ * print_line - prints a line
+ * @n: variable
+ *
+ * Return: 0
  */
-int _abs(int n)
+
+void print_line(int n)
 {
-if (n > 0)
-return (n);
-else
-return (n * -1);
+	int a = 0;
+
+	while (a < n && n > 0)
+	{
+		_putchar('_');
+		a++;
+	}
+	_putchar('\n');
 }
