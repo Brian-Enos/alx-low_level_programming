@@ -1,1 +1,1 @@
-C static libraries
+project on astatic libraries
