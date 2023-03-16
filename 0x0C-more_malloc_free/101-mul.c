@@ -1,42 +1,31 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
- * main - multiplies two positive numbers
- * @argc: number of arguments
- * @argv: array of arguments
- * Return: 0 on success, 1 on error
+ * array_range - Creates an array of integers ordered
+ *               from min to max, inclusive.
+ * @min: The first value of the array.
+ * @max: The last value of the array.
+ *
+ * Return: If min > max or the function fails - NULL.
+ *         Otherwise - a pointer to the newly created array.
  */
-int main(int argc, char *argv[])
+int *array_range(int min, int max)
 {
-    unsigned long mul;
-    int num1, num2;
+	int *array, index, size;
 
-    /* Verify that the program was called with two arguments */
-    if (argc != 3)
-    {
-        printf("Error\n");
-        return (1);
-    }
+	if (min > max)
+		return (NULL);
 
-    /* Verify that both arguments are valid positive integers */
-    for (num1 = 1; num1 < argc; num1++)
-    {
-        for (num2 = 0; argv[num1][num2] != '\0'; num2++)
-        {
-            if (argv[num1][num2] < '0' || argv[num1][num2] > '9')
-            {
-                printf("Error\n");
-                return (1);
-            }
-        }
-    }
+	size = max - min + 1;
 
-    /* Perform the multiplication using strtoul */
-    mul = strtoul(argv[1], NULL, 10) * strtoul(argv[2], NULL, 10);
+	array = malloc(sizeof(int) * size);
 
-    printf("%lu\n", mul);
-    return (0);
+	if (array == NULL)
+		return (NULL);
+
+	for (index = 0; index < size; index++)
+		array[index] = min++;
+
+	return (array);
 }
-
