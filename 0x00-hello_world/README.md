@@ -26,9 +26,10 @@ At the end of this project, i was expected to be able to explain to anyone, with
 
 ## **Requirements and Instructions**
 * Allowed editors:
-                Vi
-                Vim
-                Emacs
+    * Vi
+    * Vim
+    *  Emacs
+
 * All my files were compiled on Ubuntu 20.04 LTS using: ***gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89***
 * All my files were to end with a new line
 * **A README.md** file at the root of the repo, containing a description of the repository was mandatory
@@ -40,16 +41,16 @@ At the end of this project, i was expected to be able to explain to anyone, with
 
 ## **Running Shell Scripts**
 * Allowed editors: 
-              Vi
-              Vim
-              Emacs
+    * Vim
+    * Vi
+    * Emacs
 * All my scripts were tested on Ubuntu 20.04 LTS
 * All my scripts were to  be exactly two lines long ***($ wc -l file should print 2)***
 * All your files should end with a new line
 * The first line of all my files were to  be exactly ***#!/bin/bash***
 
 
-## ***Installing Betty Linter***
+## **Installing Betty Linter**
 
 * Go to the [Betty](https://github.com/holbertonschool/Betty) repository
 * Clone the repo to your local machine
@@ -84,11 +85,11 @@ done
 * Once saved, exit file and change permissions to apply to all users with ***chmod a+x betty***
 * Move the betty file into ***/bin/ directory*** or somewhere else in your ***$PATH*** with ***sudo mv betty /bin/***
 
-## ***Running Betty***
+## **Running Betty**
 * To run the Betty linter just with command betty <filename>:
 
   
-  Please feel free to contribute to this repository or reach out to me with any questions or suggestions.
+ **Please feel free to contribute to this repository or reach out to me with any questions or suggestions.**
 
   
   
