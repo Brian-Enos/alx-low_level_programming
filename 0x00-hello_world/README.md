@@ -86,10 +86,16 @@ done
 * Move the betty file into ***/bin/ directory*** or somewhere else in your ***$PATH*** with ***sudo mv betty /bin/***
 
 ## **Running Betty**
-* To run the Betty linter just with command betty <filename>:
+* To run the Betty linter just with command: **betty filename_to_run**
 
   
- **Please feel free to contribute to this repository or reach out to me with any questions or suggestions.**
+ ## **Note**
+
+* I'm always exploring new ways to optimize code and improve system performance, and I'm happy to share my knowledge with others.
+* I hope that my examples and projects will be useful to those looking to learn more about low-level programming or those looking to improve their skills in this field.
+
+* Please feel free to contribute to this repository or reach out to me with any questions or suggestions.
+
 
   
   
