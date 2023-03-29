@@ -35,8 +35,12 @@ At the end of this project, i was expected to be able to explain to anyone, with
 * The prototypes of all my functions and the prototype of the function ***_putchar*** were included in my header file called ***main.h***
 * The header file ***main.h*** was to be pushed to the remote repository
 
+## **Note**
 
-**Please feel free to contribute to this repository or reach out to me with any questions or suggestions.**
+* I'm always exploring new ways to optimize code and improve system performance, and I'm happy to share my knowledge with others.
+* I hope that my examples and projects will be useful to those looking to learn more about low-level programming or those looking to improve their skills in this field.
+
+* Please feel free to contribute to this repository or reach out to me with any questions or suggestions.
 
   
   
