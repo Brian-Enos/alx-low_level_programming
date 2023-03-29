@@ -1,4 +1,4 @@
-# **Functions and Nested Loops in Low-Level Programming**
+# **Functions and Nested Loops in C**
 ## **Introduction**
 > functions and nested loops are fundamental concepts in low-level programming, allowing programmers to write efficient and effective code
 
