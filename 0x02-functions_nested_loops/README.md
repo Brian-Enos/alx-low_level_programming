@@ -1,10 +1,12 @@
 # **Functions and Nested Loops in C**
 ## **Introduction**
-> functions and nested loops are fundamental concepts in low-level programming, allowing programmers to write efficient and effective code
+
 
 * Functions  are blocks of code that can be called from other parts of a program. They typically have a specific purpose and can take input parameters and return values.
 
 * Nested loops are loops within loops that allow a program to perform a repetitive task multiple times. They are commonly used in programming to perform repetitive tasks.
+
+> functions and nested loops are fundamental concepts in low-level programming, allowing programmers to write efficient and effective code
 
 ## **Learning Objectives**
 At the end of this project, i was expected to be able to explain to anyone, without the help of Google and to know:
