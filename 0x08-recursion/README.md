@@ -20,7 +20,7 @@ At the end of this project, i was expected to be able to explain to anyone, with
 * All my  files ere to  be compiled on Ubuntu 20.04 LTS using: ***gcc***, using the options ***-Wall -Werror -Wextra -pedantic -std=gnu89***
 * All my files were to end with a new line
 * A README.md file, at the root of the folder of the project was mandatory
-* My code was to use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and b[etty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+* My code was to use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 * I was  not allowed to use global variables
 * No more than 5 functions per file
 * I was not allowed to use the standard library. Any use of functions like printf, puts, etc… wass forbidden
