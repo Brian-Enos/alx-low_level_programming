@@ -1,11 +1,10 @@
 # **ALX Low Level Programming**
 ## **Introduction**
 > Low-level programming refers to the practice of writing code at a level close to the hardware, such as machine language, assembly language, or C language. It is typically used for system programming, device drivers, and operating systems.
-> Whether you're a beginner looking to learn the basics or an experienced programmer looking to optimize performance, this repository has something for you.
 > Join the community of low-level programmers and contribute to this exciting field of computer science
 
 * Welcome to my low-level programming repository! This is where I share my code examples and projects related to programming at the hardware level i did during my software engineering journey at ALX.
-
+* Whether you're a beginner looking to learn the basics or an experienced programmer looking to optimize performance, this repository has something for you.
 * In this repository, you'll find examples of tasks I've completed in low-level programming, including system programming.
 *  The codes in these projects  can be modified to  work with microcontrollers, embedded systems, and system programming for operating systems.
 
@@ -16,7 +15,7 @@
 
   
   
-  ## **Thank you for visiting!** :smiling_face_with_three_hearts:
+## **Thank you for visiting!** :smiling_face_with_three_hearts:
 
 
 
@@ -29,4 +28,7 @@
 [Linked In](https://www.linkedin.com/in/brian-enos/)
 
 
-![](https://www.google.com/search?q=cool+programming+gifs&tbm=isch&chips=q:cool+coding+gif,g_1:logo:y8nd-j4fuwo%3D&hl=en&sa=X&ved=2ahUKEwjwxfrsiYH-AhUkpycCHRTSAqQQ4lYoA3oECAEQKw&biw=939&bih=583#imgrc=EdgbE6BIUQz6jM)
+
+## ***"When done well, software is invisible," Bjarne Stroustrup*** :muscle: :muscle: :muscle:
+## **Happy Coding Engineers!** 
+<img align="left" alt="Coding" width="400" src= "https://camo.githubusercontent.com/e20822b4282c07ffd010cd05f855a6561d3b62358ca9e607e4901288dd748fcb/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f323133313939332f73637265656e73686f74732f343934383733362f74686f75676874776f726b732d6769665f6472696262626c652e676966">
