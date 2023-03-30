@@ -6,7 +6,6 @@
 * Welcome to my low-level programming repository! This is where I share my code examples and projects related to programming at the hardware level i did during my software engineering journey at ALX.
 * Whether you're a beginner looking to learn the basics or an experienced programmer looking to optimize performance, this repository has something for you.
 * In this repository, you'll find examples of tasks I've completed in low-level programming, including system programming.
-*  The codes in these projects  can be modified to  work with microcontrollers, embedded systems, and system programming for operating systems.
 
 ## **Note**
 
