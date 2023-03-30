@@ -1,15 +1,19 @@
-# **Recursion in C**
+# **More malloc, free in C**
+
 ## **Introduction**
-Recursion refers to the technique of a function calling itself to solve a problem. It involves a function making one or more calls to itself with a modified set of parameters, eventually leading to the solution of the problem.
->Recursion can be a powerful tool in programming, but it is important to use it judiciously to avoid issues such as infinite recursion
+* malloc() is a function used to allocate a block of memory of a specified size during runtime. It returns a pointer to the first byte of the allocated memory block.
+
+The memory allocated by ***malloc()*** should be released once it is no longer needed, and this is done using the ***free()*** function. The free() function deallocates the memory block pointed to by a pointer, making it available for further use by the program.
+
+> Together, ***malloc()*** and f***ree()*** are used to manage dynamic memory allocation in C programs, allowing for efficient use of memory and flexibility in program design.
+
+
 
 ## **Learning Objectives**
-At the end of this project, i was expected to be able to explain to anyone, without the help of Google and know:
+At the end of this project, I was expected to be able to explain to anyone, without the help of Google and to know:
 
-* What is recursion
-* How to implement recursion
-* In what situations you should implement recursion
-* In what situations you shouldn’t implement recursion
+* How to use the exit function
+* What are the functions ***calloc*** and ***realloc*** from the standard library and how to use them
 
 ## **Requirements and Instructions**
 
@@ -22,14 +26,16 @@ At the end of this project, i was expected to be able to explain to anyone, with
 * A README.md file, at the root of the folder of the project was mandatory
 * My code was to use the Betty style. It will be checked using [betty-style.pl](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [betty-doc.pl](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 * I was  not allowed to use global variables
+* The only C standard library functions allowed were ***malloc***, ***free*** and ***exit***. Any use of functions like printf, puts, calloc, realloc etc… were forbidden
 * No more than 5 functions per file
 * I was not allowed to use the standard library. Any use of functions like printf, puts, etc… wass forbidden
 * I was allowed to use _putchar
 * I didn’t have to push _putchar.c to the remote repo
 * The prototypes of all my functions and the prototype of the function ***_putchar*** were included in my header file called ***main.h***
 * The header file ***main.h*** was to be pushed to the remote repository
-* I was not allowed to use any kind of loops
-* I was not allowed to use static variables
+
+## **Resources**
+* [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/do-i-cast-the-result-of-malloc)
 
 ## **Note**
 
