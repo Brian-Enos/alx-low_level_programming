@@ -1,5 +1,5 @@
 
-# **pointers , Arrays and Strings**
+# **Pointers , Arrays and Strings**
 ## **Introduction**
 * A pointer is a variable that stores the memory address of another variable. Pointers are used extensively in  programming for tasks such as dynamic memory allocation and passing parameters to functions.
 
@@ -56,7 +56,7 @@ I was allowed to use _putchar
 [Linked In](https://www.linkedin.com/in/brian-enos/)
 
 
-
-## ***"When done well, software is invisible," Bjarne Stroustrup*** :muscle: :muscle: :muscle:
+## **A Famous Programming Quote**
+***"When done well, software is invisible," Bjarne Stroustrup*** :muscle: :muscle: :muscle:
 ## **Happy Coding Engineers!** :computer: :computer: :computer:
 <img align="left" alt="Coding" width="400" src= "https://camo.githubusercontent.com/e20822b4282c07ffd010cd05f855a6561d3b62358ca9e607e4901288dd748fcb/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f323133313939332f73637265656e73686f74732f343934383733362f74686f75676874776f726b732d6769665f6472696262626c652e676966">
