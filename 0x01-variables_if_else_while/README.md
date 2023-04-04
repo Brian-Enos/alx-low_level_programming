@@ -1,4 +1,4 @@
-# ***Variables and Control Structures in C Language**
+# **Variables and Control Structures in C Language**
 ## Introduction
 > Variables are memory locations that are used to store values in a program. They are declared with a data type, such as int or float, and can be assigned values using the assignment operator.
 > Control structures are statements that are used to control the flow of execution in a program. They include conditional statements such as if-else and switch statements, as well as loops such as for and while loops.
@@ -58,7 +58,7 @@ At the end of this project, i was expected to be able to explain to anyone, with
 [Linked In](https://www.linkedin.com/in/brian-enos/)
 
 
-
-## ***"When done well, software is invisible," Bjarne Stroustrup*** :muscle: :muscle: :muscle:
+## **A Famous Programming Quote**
+***"When done well, software is invisible," Bjarne Stroustrup*** :muscle: :muscle: :muscle:
 ## **Happy Coding Engineers!** :computer: :computer: :computer:
 <img align="left" alt="Coding" width="400" src= "https://camo.githubusercontent.com/e20822b4282c07ffd010cd05f855a6561d3b62358ca9e607e4901288dd748fcb/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f323133313939332f73637265656e73686f74732f343934383733362f74686f75676874776f726b732d6769665f6472696262626c652e676966">
