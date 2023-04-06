@@ -1,4 +1,4 @@
-# **Singly Linked Lists**
+# **More Singly Linked Lists**
 ## **Introduction**
 A singly linked list is a data structure consisting of a sequence of nodes, where each node stores a value and a reference to the next node in the list.
 
