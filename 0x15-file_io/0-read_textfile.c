@@ -1,30 +1,30 @@
-#include "main.h" 
+#include "main.h"
 #include <stdlib.h>
 
-ssize_t read_textfile(const char *filename, size_t letters) 
+ssize_t read_textfile(const char *filename, size_t letters)
 {
-    ssize_t op, rd, wr;
+    ssize_t o, r, w;
     char *buffer;
 
-    if (filename == NULL)
+    if (!filename)
         return (0);
 
     buffer = malloc(sizeof(char) * letters);
-    if (buffer == NULL)
+    if (!buffer)
         return (0);
 
-    op = open(filename, O_RDONLY);
-    rd = read(op, buffer, letters);
-    wr = write(STDOUT_FILENO, buffer, rd);
+    o = open(filename, O_RDONLY);
+    r = read(o, buffer, letters);
+    w = write(STDOUT_FILENO, buffer, r);
 
-    if (op == -1 || rd == -1 || wr == -1 || wr != rd)
+    if (o == -1 || r == -1 || w == -1 || w != r)
     {
         free(buffer);
         return (0);
     }
 
     free(buffer);
-    close(op);
+    close(o);
 
-    return (wr);
+    return (w);
 }
