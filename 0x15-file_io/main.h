@@ -1,4 +1,4 @@
-fndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_Hi
 
 #include <sys/stat.h>
